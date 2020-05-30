@@ -1,13 +1,13 @@
-package com.jlabs;
-
-import org.junit.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-
-@SpringBootTest
-public class PatientApiApplicationTests {
-
-	@Test
-	public void contextLoads() {
-	}
-
-}
+//package com.jlabs;
+//
+//import org.junit.Test;
+//import org.springframework.boot.test.context.SpringBootTest;
+//
+//@SpringBootTest
+//public class PatientApiApplicationTests {
+//
+//	@Test
+//	public void contextLoads() {
+//	}
+//
+//}

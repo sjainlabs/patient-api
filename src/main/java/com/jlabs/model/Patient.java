@@ -10,8 +10,10 @@ import lombok.*;
 @NoArgsConstructor
 @Builder(toBuilder = true)
 @ToString
+@AllArgsConstructor
 public class Patient {
 
+    private int id;
     private String firstName;
     private String lastName;
     private int age;
@@ -23,12 +25,9 @@ public class Patient {
     private String emergencyContactNumber;
     private String careOf;
     private String email;
-    private Long weight;
-    private Long height;
+    private Double weight;
+    private Double height;
     private String symptoms;
     private String prescriptions;
     private String additionalNotes;
-
-
-
 }
